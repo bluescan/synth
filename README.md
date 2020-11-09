@@ -1,5 +1,5 @@
 # Synth
-An Amiga mod player written in C using Port Audio.
+An Amiga mod player written in C using Port Audio. This C code was written a long time ago (1996) so it seems likely the outstanding issues below may remain outstanding indefinitely. For posterity:
 
 ### To Do
 The current outstanding items for synth:
