@@ -1,8 +1,10 @@
 # Synth
-An Amiga mod player written in C using Port Audio. This C code was written a long time ago (1996) so it seems likely the outstanding issues below may remain outstanding indefinitely. For posterity:
+
+An Amiga mod player written in C. Originally only worked on Linux but has since been adapted to use port-audio, although only working in mono on PC. Supports the original Amiga 4-channel mod files and converts them into simple PCM streams. Applies most of the supported mod effects and mixes channels appropriately. Synth works on Windows using the Port Audio library but unlike the Linux version is only mono.
+
+This code is old (circa 1996), a little cryptic, and written in C. It still seems to work pretty well though. Oddly, only the debug version is working, so build that in VS 2015 Community Edition if you want to try. It seems likely the outstanding issues below may remain outstanding indefinitely. For posterity:
 
 ### To Do
-The current outstanding items for synth:
 
 * Should LoadMod return the bitwise OR of all the Load function calls,
   or should it fail after the first failure??  file: loadmod.c/h
